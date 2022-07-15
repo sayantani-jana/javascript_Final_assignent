@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+    <title>Shopping App</title>
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header>
+        <nav id="topbar">
+            <div id="left-menu">
+                <div id="logo"><a href="index.html"><span>Shop</span>lane</a></div>
+                <a href="#clothing-section">Clothing</a>
+                <a href="#accessory-section">Accessories</a>
+            </div>
+            <div id="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories"/>
+            </div>
+            <div id="right-menu">
+                <div id="cart-wrapper">
+                    <p id="cart-count">0</p>
+                    <a href="/checkout.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <img src="/assets/avatar.jpg" />
+            </div>
+        </nav>
+    </header>
+    <main>    
+        <section>
+            <div class="center">
+                <img src="https://imgur.com/96OnkX7.png" />
+                <img src="https://imgur.com/KtGxwnN.png" />
+                <img src="https://imgur.com/sfjg9R8.png" />
+                <img src="https://imgur.com/p0wdadG.png" />
+            </div>
+        </section>
+
+        <section id="clothing-section" class="homepage-section">
+            <h3 class="section-heading">Clothing for Men and Women</h3>
+
+            <div id="clothing-grid" class="product-grid">
+            </div>
+        </section>
+
+        <section id="accessory-section" class="homepage-section">
+            <h3 class="section-heading">Accessories for Men and Women</h3>
+
+            <div id="accessory-grid" class="product-grid">
+            </div>
+        </section>
+        <section>
+            <div class="center slick-initialized slick-slider slick-dotted">
+                <div class="slick-list draggable" style="padding: 0px 50px;"><div class="slick-track" style="opacity: 1; width: 12490px; transform: translate3d(-2498px, 0px, 0px);"><img src="https://imgur.com/sfjg9R8.png" class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 1089px;" tabindex="-1"><img src="https://imgur.com/p0wdadG.png" class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 1089px;" tabindex="-1"><img src="https://imgur.com/96OnkX7.png" class="slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" style="width: 1089px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00"><img src="https://imgur.com/KtGxwnN.png" class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1089px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01"><img src="https://imgur.com/sfjg9R8.png" class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1089px;" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02"><img src="https://imgur.com/p0wdadG.png" class="slick-slide" data-slick-index="3" aria-hidden="true" style="width: 1089px;" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03"><img src="https://imgur.com/96OnkX7.png" class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" style="width: 1089px;" tabindex="-1"><img src="https://imgur.com/KtGxwnN.png" class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" style="width: 1089px;" tabindex="-1"><img src="https://imgur.com/sfjg9R8.png" class="slick-slide slick-cloned slick-center" data-slick-index="6" aria-hidden="true" style="width: 1089px;" tabindex="-1"><img src="https://imgur.com/p0wdadG.png" class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 1089px;" tabindex="-1"></div></div>
+                
+                
+                
+            <ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 4" tabindex="0" aria-selected="true">1</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 4" tabindex="-1">2</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 4" tabindex="-1">3</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 4" tabindex="-1">4</button></li></ul></div>
+        </section>
+
+        <section id="clothing-section" class="homepage-section">
+            <h3 class="section-heading">Clothing for Men and Women</h3>
+
+            <div id="clothing-grid" class="product-grid">
+            <div class="product-card"><a href="/product/details.html?p=1"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg" alt="Men Navy Blue Solid Sweatshirt Pic"></a><div class="product-meta"><h4>Men Navy Blue Solid Sweatshirt</h4><h5>United Colors of Benetton</h5><p>Rs 2599</p></div></div><div class="product-card"><a href="/product/details.html?p=2"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg" alt="Men Black MAMGP T7 Sweat Sporty Jacket Pic"></a><div class="product-meta"><h4>Men Black MAMGP T7 Sweat Sporty Jacket</h4><h5>Puma</h5><p>Rs 7999</p></div></div><div class="product-card"><a href="/product/details.html?p=3"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg" alt="Men Black Action Parkview Lifestyle Shoes Pic"></a><div class="product-meta"><h4>Men Black Action Parkview Lifestyle Shoes</h4><h5>Hush Puppies</h5><p>Rs 6999</p></div></div><div class="product-card"><a href="/product/details.html?p=4"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg" alt="Women Black Solid Lightweight Leather Jacket Pic"></a><div class="product-meta"><h4>Women Black Solid Lightweight Leather Jacket</h4><h5>BARESKIN</h5><p>Rs 9999</p></div></div><div class="product-card"><a href="details.html"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5649908/2018/5/10/6bfe80cd-2f55-42bc-aa7f-e0d6c9e2ac531525936414747-SASSAFRAS-Women-Blue-Solid-Shirt-Dress-3831525936414532-1.jpg" alt="Women Blue Solid Shirt Dress Pic"></a><div class="product-meta"><h4>Women Blue Solid Shirt Dress</h4><h5>SASSAFRAS</h5><p>Rs 5200</p></div></div></div>
+        </section>
+
+        <section id="accessory-section" class="homepage-section">
+            <h3 class="section-heading">Accessories for Men and Women</h3>
+
+            <div id="accessory-grid" class="product-grid">
+            <div class="product-card"><a href="/product/details.html?p=6"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg" alt="Unisex Silver-Toned Series 3 Smart Watch Pic"></a><div class="product-meta"><h4>Unisex Silver-Toned Series 3 Smart Watch</h4><h5>Apple</h5><p>Rs 31999</p></div></div><div class="product-card"><a href="/product/details.html?p=7"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/2/23/dc05b5e5-aa82-493e-bf0b-0c309baf21021550920383101-1.jpg" alt="Unisex Black &amp; Green Reflex 2.0 Smart Band Pic"></a><div class="product-meta"><h4>Unisex Black &amp; Green Reflex 2.0 Smart Band</h4><h5>Fastrack</h5><p>Rs 1999</p></div></div><div class="product-card"><a href="/product/details.html?p=8"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/e533a691-3908-41b0-8307-1928a37d4ec41561362162650-Samsung-Galaxy-Fit-4801561362161527-1.jpg" alt="Unisex Black Galaxy Fit Fitness Band Pic"></a><div class="product-meta"><h4>Unisex Black Galaxy Fit Fitness Band</h4><h5>Samsung</h5><p>Rs 9990</p></div></div><div class="product-card"><a href="/product/details.html?p=9"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8593217/2019/4/9/de2c21f3-6731-4c29-9369-692a486a1b8c1554802772926-Samsung-Gear-IconX-Black-Cord-free-Fitness-Earbuds-256155480-1.jpg" alt="Gear IconX Black Cord-free Fitness Earbuds Pic"></a><div class="product-meta"><h4>Gear IconX Black Cord-free Fitness Earbuds</h4><h5>Samsung</h5><p>Rs 13990</p></div></div><div class="product-card"><a href="/product/details.html?p=10"><img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg" alt="White 2nd Gen AirPods with Charging Case Pic"></a><div class="product-meta"><h4>White 2nd Gen AirPods with Charging Case</h4><h5>Apple</h5><p>Rs 14999</p></div></div></div>
+        </section>
+    </main>
+    <img id="edyoda-projects-logo" src="https://i.imgur.com/OKAY6Fl.png" alt="EdYoda Projects Logo" />
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="/" class="footer-link">Men Clothing</a>
+            <a href="/" class="footer-link">Women Clothing</a>
+            <a href="/" class="footer-link">Men Accessories</a>
+            <a href="/" class="footer-link">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="/" class="footer-link">Home</a>
+            <a href="/" class="footer-link">About</a>
+            <a href="/" class="footer-link">Contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="/" class="footer-link">Zara</a>
+            <a href="/" class="footer-link">Pantaloons</a>
+            <a href="/" class="footer-link">Levis</a>
+            <a href="/" class="footer-link">UCB</a>
+            <a href="/" class="footer-link">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">Address</p>
+            <p href="/" class="footer-link">Building 101</p>
+            <p href="/" class="footer-link">Central Avenue</p>
+            <p href="/" class="footer-link">LA - 902722</p>
+            <p href="/" class="footer-link">United States</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
